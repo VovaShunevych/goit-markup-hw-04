@@ -176,6 +176,7 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-container {
   display: flex;
@@ -241,19 +242,15 @@ body {
   justify-content: center;
 }
 
-.feature-list-icon {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 8px;
-}
 .feature-icon-item {
   background: var(--main-feature-icon-item-background, #f4f4fd);
   border-radius: 4px;
-  width: calc((100%-72px) / 4);
+
   height: 112px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .feature-icon {
@@ -377,7 +374,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--main-team-soc-link-background-color, #4d5ae5);
-  margin-bottom: 8px;
 }
 .team-soc-link:is(:hover, :focus) {
   background: var(--main-team-soc-link-hover-background, #404bbf);
@@ -556,6 +552,7 @@ body {
   flex-basis: calc((100% - 48px) / 3);
 }
 .filter-cards-link {
+  display: block;
 }
 .filter-cards-link:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
